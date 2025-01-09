@@ -33,6 +33,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: create env
-        run: echo "level=job >> $GITHUB_ENV"
+        run: echo "level=command" >> $GITHUB_ENV
       - name: check env
         run: echo "LEVEL ${{ env.level }}"
