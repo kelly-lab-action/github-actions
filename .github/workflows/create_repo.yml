@@ -33,19 +33,20 @@ jobs:
         with:
           payload: |
             {
+              "text": "📢 새로운 레포지토리 생성 결과!",
               "attachments": [
-              {
-                pretext: "📢 새로운 레포지토리 생성 결과!",
-                "color": "28a745",
-                "fields": [
-                  {
-                    "title": "따끈따끈한 레포 생성 결과 ${{ steps.create-repo.outcome }}",
-                    "short": true,
-                    "value": "${{ inputs.prefix }}-${{ inputs.name }}"
-                  }
-                ]
-              }
-            ]
+                {
+                  "pretext": "create repo result",
+                  "color": "28a745",
+                  "fields": [
+                    {
+                      "title": "따끈따끈한 레포 생성 결과 ${{ steps.create-repo.outcome }}",
+                      "short": true,
+                      "value": "${{ inputs.prefix }}-${{ inputs.name }}"
+                    }
+                  ]
+                }
+              ]
             }
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
