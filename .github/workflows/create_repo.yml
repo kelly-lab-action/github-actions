@@ -32,17 +32,19 @@ jobs:
         uses: slackapi/slack-github-action@v1.24.0
         with:
           payload: |
-            {
-              "attachments": "create repo result",
-              "color": "28a745",
-              "fields": [
-                {
-                  "title": "따끈따끈한 레모 생성 결과 ${{ steps.create-repo.outcome }}",
-                  "short": true,
-                  "value": "${{ inputs.prefix }}-${{ inputs.name }}"
-                }
-              ]
-            }
+            "attachments": [
+              {
+                pretext: "create repo result",
+                "color": "28a745",
+                "fields": [
+                  {
+                    "title": "따끈따끈한 레포 생성 결과 ${{ steps.create-repo.outcome }}",
+                    "short": true,
+                    "value": "${{ inputs.prefix }}-${{ inputs.name }}"
+                  }
+                ]
+              }
+            ]
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
