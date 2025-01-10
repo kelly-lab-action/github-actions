@@ -37,7 +37,7 @@ jobs:
               "color": "28a745",
               "fields": [
                 {
-                  "title": "따끈따끈한 레모 생성 결과 ${{ steps.create-repo.outcome }}"
+                  "title": "따끈따끈한 레모 생성 결과 ${{ steps.create-repo.outcome }}",
                   "short": true,
                   "value": "${{ inputs.prefix }}-${{ inputs.name }}"
                 }
