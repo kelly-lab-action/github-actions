@@ -9,7 +9,7 @@ on:
 
 jobs:
   test:
-    if: github.event.action == 'opended' || github.event.action == 'synchronize'
+    if: github.event.action == 'opened' || github.event.action == 'synchronize'
     runs-on: ubuntu-latest
     steps:
       - name: checkout
