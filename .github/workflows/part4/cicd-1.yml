@@ -5,7 +5,7 @@ on:
     types: [opened, synchronize, closed]
     branches: [dev]
     paths:
-      - 'my-app/**'
+      - '../../../my-app'
 
 jobs:
   test:
