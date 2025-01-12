@@ -15,8 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          새로운 기능 -> 켈리 커피 사주기!
-        </a>
+          시나리오2 사전 테스트 삐빅 🤖        </a>
       </header>
     </div>
   );
