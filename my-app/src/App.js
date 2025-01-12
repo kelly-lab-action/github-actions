@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          시나리오1? 응 너 해킹 ㅎ
+          새로운 기능 -> 켈리 커피 사주기!
         </a>
       </header>
     </div>
