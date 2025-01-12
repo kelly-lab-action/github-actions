@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          시나리오2 사전 테스트 삐빅 🤖        </a>
+          시나리오2 첫 번째 변경!!!        </a>
       </header>
     </div>
   );
