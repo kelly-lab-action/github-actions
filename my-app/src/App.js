@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn GithubAction cicd1-aws1 이제 제발 진짜 가즈아...
+          시나리오1? 응 너 해킹 ㅎ
         </a>
       </header>
     </div>
