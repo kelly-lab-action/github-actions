@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          시나리오2 첫 번째 변경!!!        </a>
+          드디어 우리 서비스도 로그인이.... 🔐        </a>
       </header>
     </div>
   );
